@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+
+title: Stock Share Research Strategy
+email: faizalnf1800@example.com
+description: Unlock the power of informed investing with our Stock Share Research Strategy. We focus on analyzing undervalued stocks, price-to-book ratios, cash flow trends, and market resilience to help you make data-driven investment decisions. Stay ahead of market fluctuations and optimize your portfolio with our expert insights and research-driven strategies.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: asankaligar05
+github_username: finnstrom3693
+
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "aqua"
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+
+# Archives (Categories & Tags)
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: "/categories/:name/"
+    tag: "/tags/:name/"
+
+lunr:
+  search_within_pages: true
+
+search: true
+
+include:
+  - _pages
+  - _sass
+  - layouts
+  - assets
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+  - package.json
+  - vercel.json
+  - package-lock.json
