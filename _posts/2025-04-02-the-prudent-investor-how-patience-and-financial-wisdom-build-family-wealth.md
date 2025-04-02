@@ -4,7 +4,7 @@ title: "The Prudent Investor: How Patience and Financial Wisdom Build Family Wea
 date: 2025-04-02 20:07:59 +0700
 categories:
   - boost
-  - psyhology
+  - psychology
   - social
 tags:
   - mentality_improve
