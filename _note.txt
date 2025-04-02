@@ -1,7 +1,7 @@
 bash
 ./_create_jekyll_post.py "My New Post Title" --categories tech webdev --tags jekyll automation
-As a draft:
 
+As a draft:
 bash
 ./_create_jekyll_post.py "My Draft Post" --draft
 With author:
