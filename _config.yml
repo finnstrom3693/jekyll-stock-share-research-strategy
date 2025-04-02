@@ -19,6 +19,7 @@ minimal_mistakes_skin: "aqua"
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-analytics
 
 # Archives (Categories & Tags)
 category_archive:
@@ -39,6 +40,13 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-VXFNXDWMQC"
+    anonymize_ip: false # default
+
+
 lunr:
   search_within_pages: true
 
@@ -48,7 +56,8 @@ include:
   - _pages
   - _sass
   - layouts
-  - assets
+  - asset
+  - _includes
 
 # Exclude from processing.
 exclude:
