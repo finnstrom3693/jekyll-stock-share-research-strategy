@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "The Prudent Investor: How Patience and Financial Wisdom Build Family Wealth"
 date: 2025-04-02 20:07:59 +0700
 categories:
