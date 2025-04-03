@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Judgment vs. Decision: Navigating the Art of Choosing Stock Shares"
 date: 2025-04-03 15:14:22 +0700
 categories:
