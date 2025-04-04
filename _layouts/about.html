@@ -6,23 +6,63 @@ layout: default
   <meta itemprop="headline" content="{{ page.title }}"/>
   <meta itemprop="description" content="{{ page.description | default: site.description }}"/>
   
-  <div class="page__inner-wrap">
-    <header>
-      <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
-      {% if page.subtitle %}<p class="page__subtitle">{{ page.subtitle }}</p>{% endif %}
-    </header>
+  <div class="page__container">
+    <div class="page__inner-wrap">
+      <header>
+        <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+        {% if page.subtitle %}<p class="page__subtitle">{{ page.subtitle }}</p>{% endif %}
+      </header>
 
-    <section class="page__content" itemprop="text">
-      {{ content }}  <!-- Your Markdown content goes here -->
-    </section>
+      <section class="page__content" itemprop="text">
+        {{ content }}  <!-- Your Markdown content goes here -->
+      </section>
 
-    <!-- Optional: Edit button (remove if not needed) -->
-    {% if site.data.ui-text[site.locale].edit_label %}
-      <footer class="page__meta">
-        <a href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="btn btn--primary">
-          {{ site.data.ui-text[site.locale].edit_label | default: "Edit" }}
-        </a>
-      </footer>
-    {% endif %}
+      <!-- Optional: Edit button (remove if not needed) -->
+      {% if site.data.ui-text[site.locale].edit_label %}
+        <footer class="page__meta">
+          <a href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="btn btn--primary">
+            {{ site.data.ui-text[site.locale].edit_label | default: "Edit" }}
+          </a>
+        </footer>
+      {% endif %}
+    </div>
   </div>
 </article>
+
+<style>
+  .page__container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: 576px) {
+    .page__container {
+      max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .page__container {
+      max-width: 720px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .page__container {
+      max-width: 960px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .page__container {
+      max-width: 1140px;
+    }
+  }
+
+  .page__inner-wrap {
+    width: 100%;
+  }
+</style>
