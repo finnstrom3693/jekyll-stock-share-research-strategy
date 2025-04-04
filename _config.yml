@@ -9,7 +9,7 @@ title: Stock Share Research Strategy
 email: faizalnf1800@example.com
 description: Unlock the power of informed investing with our Stock Share Research Strategy. We focus on analyzing undervalued stocks, price-to-book ratios, cash flow trends, and market resilience to help you make data-driven investment decisions. Stay ahead of market fluctuations and optimize your portfolio with our expert insights and research-driven strategies.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jekyll-stock-share-research-strategy.vercel.app" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: asankaligar05
 github_username: finnstrom3693
 
