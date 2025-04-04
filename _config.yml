@@ -52,6 +52,14 @@ lunr:
 
 search: true
 
+twitter:
+  username: &twitter "AsankaLigar1800"
+facebook:
+  username: &facebook "100088498143378"
+  app_id:  # optional
+  publisher: # optional
+og_image: "/assets/images/Site-Image.png"
+
 include:
   - _pages
   - _sass

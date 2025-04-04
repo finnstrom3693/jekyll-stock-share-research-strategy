@@ -1,0 +1,29 @@
+<!-- _includes/head/custom.html -->
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- Open Graph / Facebook -->
+{% if page.header.og_image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.header.og_image }}">
+{% elsif page.header.image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.header.image }}">
+{% elsif site.og_image %}
+  <meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
+{% endif %}
+
+<!-- Twitter -->
+{% if page.header.og_image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.header.og_image }}">
+{% elsif page.header.image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.header.image }}">
+{% elsif site.og_image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.og_image }}">
+{% else %}
+  <meta name="twitter:card" content="summary">
+{% endif %}
+
+<!-- end custom head snippets -->

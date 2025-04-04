@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Modern Trade Wars: General Explanation and Relation to Stock Market Investing"
+header:
+  image: "/assets/images/Trade-War.png"
+  og_image: "/assets/images/Trade-War.png"
 date: 2025-04-04 13:50:10 +0700
 categories:
   - geopolitics
