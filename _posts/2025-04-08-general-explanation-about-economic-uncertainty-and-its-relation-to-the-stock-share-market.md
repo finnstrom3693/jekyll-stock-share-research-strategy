@@ -1,4 +1,5 @@
 ---
+layout : single
 title: "General Explanation about Economic Uncertainty and Its Relation to the Stock Share Market"
 date: 2025-04-08 20:57:56 +0700
 categories:
